@@ -1,0 +1,47 @@
+.rs {
+  &__control {
+    border: none !important;
+    border-radius: 15px !important;
+    font-family: "Inter" !important;
+  }
+  &__placeholder {
+    color: #5d6a7b !important;
+    font-size: 16px !important;
+  }
+  &__single-value {
+    color: #023e8a !important;
+    font-size: 16px !important;
+  }
+  &__indicator {
+    & > svg {
+      path {
+        fill: #023e8a !important;
+      }
+    }
+  }
+  &__menu {
+    border-radius: 10px !important;
+  }
+  &__option {
+    font-family: "Inter" !important;
+    font-size: 16px !important;
+    color: #023e8a !important;
+  }
+}
+
+.react-datepicker {
+  &-wrapper {
+    width: fit-content !important;
+    background-color: white !important;
+    border: none !important;
+    border-radius: 15px !important;
+  }
+  &__input-container {
+    input {
+      padding: 8px 20px;
+      font-family: "Inter";
+      font-size: 16px !important;
+      width: 300px;
+    }
+  }
+}
